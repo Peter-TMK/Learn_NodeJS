@@ -1,6 +1,7 @@
 ## NodeJS
 
 - An environment to run JavaScript outside the browser.
+- An open-source, server-side and single-threaded runtime environment for JavaScript
 - It's built on Chrome's V8 JS engine(every browser has an engine).
 
 ### Pre-requisite
@@ -34,5 +35,7 @@ NodeJS -
 - Filesystem
 - Versions
 - CommonJS(for module)
+
+
 
 Reference - https://m.youtube.com/watch?v=Oe421EPjeBE&t=0s
