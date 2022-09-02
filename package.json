@@ -1,0 +1,20 @@
+{
+  "name": "learn_nodejs",
+  "version": "1.0.0",
+  "description": "- An environment to run JavaScript outside the browser.\r - It's built on Chrome's V8 JS engine(every browser has an engine).",
+  "main": "1-Intro.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peter-TMK/Learn_NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peter-TMK/Learn_NodeJS/issues"
+  },
+  "homepage": "https://github.com/Peter-TMK/Learn_NodeJS#readme"
+}
