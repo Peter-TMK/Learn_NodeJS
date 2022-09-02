@@ -1,0 +1,1 @@
+Here is the result of the both files: Text file 3, Text file 4Here, I am appending to original file
