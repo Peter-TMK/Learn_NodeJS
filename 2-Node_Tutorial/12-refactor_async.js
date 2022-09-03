@@ -57,6 +57,7 @@
 
 // >>>>>>>>>>>>Making it more cleaner(with promisify, async await)>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+
 // const util = require('util')
 // const readFilePromise = util.promisify(readFile)
 // const writeFilePromise = util.promisify(writeFile)
@@ -78,6 +79,7 @@
 // start()
 
 // >>>>>>>>>>>>Making it more cleaner(without promisify but with promises(from require), async await)>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 const { readFile, writeFile } = require("fs").promises
 // const util = require('util')
 // const readFilePromise = util.promisify(readFile)
