@@ -48,7 +48,7 @@ app.put('/api/people/:id', (req, res)=>{
     // console.log(id, name)
     // res.send("Hello World")
     const person = people.find((person)=> person.id === Number(id))
-    
+
     if(!person){
         return res
         .status(404)
@@ -74,6 +74,7 @@ app.delete('/api/people/:id', (req, res)=>{
     const newPeople = people.filter((person)=> person.id !== Number(req.params.id))
     return res.status(200).json({ success: true, data: newPeople})
 })
-        app.listen(5050, ()=>{
-            console.log('Server is listening on port 5050...')
-        })
+
+app.listen(5050, ()=>{
+    console.log('Server is listening on port 5050...')
+})
