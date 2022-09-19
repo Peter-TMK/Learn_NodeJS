@@ -1,4 +1,4 @@
-## A well-detailed and comprehensive documentation of my journey in learning NodeJS with FCC.
+## A well-detailed and comprehensive documentation of my journey learning NodeJS with FCC.
 
 ## NodeJS
 
